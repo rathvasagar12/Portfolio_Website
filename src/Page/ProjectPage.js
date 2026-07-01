@@ -1,4 +1,3 @@
-import Nav from "./Nav";
 import Footer from "./Footer";
 import GSWeb from '../Img/GS-web.png';
 import b2bmobile from '../Img/b2bmobile.png';
@@ -90,9 +89,9 @@ function ProjectPage() {
 							<p className="project-card-description">
 								Designed custom logos by combining creativity, brand strategy, and visual storytelling to build strong and recognizable brand identities.
 							</p>
-							<a href="#details" className="project-card-link">
+							{/* <a href="#details" className="project-card-link">
 								View Details <span className="arrow">→</span>
-							</a>
+							</a> */}
 						</div>
 					</div>
 				</div>
@@ -119,9 +118,9 @@ function ProjectPage() {
 							<p className="project-card-description">
 								An accessible wellness platform that empowers users to prioritize their mental health through simple, engaging interactions.
 							</p>
-							<a href="/CaseStudy/GS" className="project-card-link">
+							{/* <a href="/CaseStudy/GS" className="project-card-link">
 								View Case Study <span className="arrow">→</span>
-							</a>
+							</a> */}
 						</div>
 					</div>
 
@@ -146,9 +145,9 @@ function ProjectPage() {
 							<p className="project-card-description">
 								Created a responsive corporate website featuring company information, services, case studies, and contact solutions with a user-centric design approach.
 							</p>
-							<a href="/CaseStudy/GS" className="project-card-link">
+							{/* <a href="/CaseStudy/GS" className="project-card-link">
 								View Case Study <span className="arrow">→</span>
-							</a>
+							</a> */}
 						</div>
 					</div>
 
@@ -171,9 +170,9 @@ function ProjectPage() {
 							<p className="project-card-description">
 								Created a responsive blog website featuring casino reviews, gaming strategies, industry news, and SEO-optimized content layouts for an enhanced reading experience.
 							</p>
-							<a href="#details" className="project-card-link">
+							{/* <a href="#details" className="project-card-link">
 								View Details <span className="arrow">→</span>
-							</a>
+							</a> */}
 						</div>
 					</div>
 				</div>

@@ -11,6 +11,7 @@ import Life from './Life';
 function Home() {
 	return (
 		<div>
+
 			<Hero />
 			<Project />
 			<Tools />

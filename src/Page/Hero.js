@@ -1,5 +1,4 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 import { MapPinned } from 'lucide-react';
 import behance from '../Img/behance.png'
 import LinkedIn from '../Img/linkedin.png'
@@ -10,8 +9,6 @@ import { ArrowUpRight } from 'lucide-react';
 
 
 function Hero() {
-    const location = useLocation();
-    const pathname = location.pathname;
 
     return (
         <div>
@@ -47,12 +44,12 @@ function Hero() {
                         <div className="social-section">
                             <span className="social-label">Follow Me</span>
                             <div className="social-icons-wrapper">
-                                <a href="https://www.behance.net/sagarrathawa1" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={behance} /></a>
-                                <a href="https://www.linkedin.com/in/sagar-rathva/" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} /></a>
-                                <a href="https://www.instagram.com/moozark" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} /></a>
+                                <a href="https://www.behance.net/sagarrathawa1" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={behance} alt="Behance" /></a>
+                                <a href="https://www.linkedin.com/in/sagar-rathva/" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} alt="LinkedIn" /></a>
+                                <a href="https://www.instagram.com/moozark" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} alt="Instagram" /></a>
 
                                 <a href="mailto:rathwasagar007@gmail.com" className="social-icon-pill">
-                                    <img src={Gmail} />
+                                    <img src={Gmail} alt="Gmail" />
                                 </a>
                             </div>
                         </div>

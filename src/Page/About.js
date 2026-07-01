@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Footer from './Footer';
 import me from '../Img/me.PNG';
-import { GraduationCap, Code2, Heart } from 'lucide-react';
+import { GraduationCap, Heart } from 'lucide-react';
 import { CodeXml } from 'lucide-react';
 import Photography from '.././Img/Photography.png'
 import Movie from '.././Img/Movie.png'

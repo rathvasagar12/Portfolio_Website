@@ -77,12 +77,12 @@ function Contact() {
                         <div className="social-section">
                             <span className="social-label">Follow Me</span>
                             <div className="social-icons-wrapper">
-                                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={behance} /></a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} /></a>
-                                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} /></a>
+                                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={behance} alt="Behance" /></a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} alt="LinkedIn" /></a>
+                                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} alt="Instagram" /></a>
 
                                 <a href="mailto:rathwasagar007@gmail.com" className="social-icon-pill">
-                                    <img src={Gmail} />
+                                    <img src={Gmail} alt="Gmail" />
                                 </a>
                             </div>
                         </div>

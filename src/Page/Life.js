@@ -1,16 +1,11 @@
 import React from 'react';
-import Footer from './Footer';
 import img1 from '../Img/img1.jpeg';
-import img2 from '../Img/img2.jpeg'
-import img3 from '../Img/img3.jpeg'
-import img4 from '../Img/img4.jpeg'
-import img5 from '../Img/img5.jpeg'
-import img6 from '../Img/img6.jpeg'
-import img7 from '../Img/img7.jpeg'
-import img72 from '../Img/img72.png'
-import img73 from '../Img/img73.png'
-import img74 from '../Img/img74.jpeg'
-import img75 from '../Img/img75.jpeg'
+import img4 from '../Img/img4.jpeg';
+import img5 from '../Img/img5.jpeg';
+import img7 from '../Img/img7.jpeg';
+import img72 from '../Img/img72.png';
+import img74 from '../Img/img74.jpeg';
+import img75 from '../Img/img75.jpeg';
 function Life() {
     return (
         <div className="portfolio-page-content">

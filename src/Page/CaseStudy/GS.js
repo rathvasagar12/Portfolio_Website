@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Footer from '../Footer';
 import GSWeb from '../../Img/GS-web.png';
 import '../Home.css';
 

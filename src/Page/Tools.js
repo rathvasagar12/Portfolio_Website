@@ -7,7 +7,6 @@ import css from "../Img/css.png";
 import Javascript from "../Img/Javascript.png";
 import bootstrap from "../Img/bootstrap.png";
 import react from "../Img/react.png";
-import Footer from "./Footer";
 import ChatGPT from "../Img/ChatGPT.png";
 import Claude from "../Img/Claude.png";
 import Antigravity from "../Img/Antigravity.png";

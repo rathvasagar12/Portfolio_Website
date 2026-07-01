@@ -3,9 +3,11 @@ import './Home.css';
 import GSWeb from '../Img/GS-web.png'
 import b2bmobile from '../Img/b2bmobile.png'
 import LogoDesign from '../Img/LogoDesign.png'
+import Nav from './Nav';
 function Project() {
     return (
         <div className="portfolio-page-content">
+
             <div className="projects-page-wrapper">
                 <div className="projects-header">
                     <span className="projects-subtitle">Portfolio</span>
@@ -43,7 +45,7 @@ function Project() {
                     {/* Project Card 2: RafRaf */}
                     <div className="project-card">
                         <div className="project-image-container">
-                            <a href="/CaseStudy/GS">
+                            <a href="/CaseStudy/BM">
                                 <img
                                     src={b2bmobile}
                                     alt="Global-Summits Project"
@@ -54,14 +56,14 @@ function Project() {
                         <div className="project-card-body">
                             <span className="project-card-badge">Web UI Design</span>
                             <h3 className="project-card-title">
-                                <a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                <a href="/CaseStudy/BM" style={{ color: 'inherit', textDecoration: 'none' }}>
                                     B2B Marketplace App
                                 </a>
                             </h3>
                             <p className="project-card-description">
                                 Designed a modern B2B marketplace app that simplifies product discovery, bulk ordering, supplier communication, and business transactions through an intuitive user experience.
                             </p>
-                            <a href="/CaseStudy/GS" className="project-card-link">
+                            <a href="/CaseStudy/BM" className="project-card-link">
                                 View Case Study <span className="arrow">→</span>
                             </a>
                         </div>

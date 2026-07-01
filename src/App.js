@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Page/Home';
 import About from './Page/About';
-import Project from './Page/Project';
 import ProjectPage from './Page/ProjectPage';
 import Tools from './Page/Tools';
 import Journey from './Page/Journey';
@@ -11,7 +10,7 @@ import Life from './Page/Life';
 import Nav from './Page/Nav';
 import Contact from './Page/Contact';
 import GS from './Page/CaseStudy/GS';
-import BM from '../src/Page/CaseStudy/BM'
+import BM from './Page/CaseStudy/BM'
 
 function App() {
   return (
