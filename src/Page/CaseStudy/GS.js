@@ -57,7 +57,7 @@ function GS() {
                     <div className="casestudy-section">
                         <h2>The Challenge</h2>
                         <p>
-                            ## The Challenge
+                            The Challenge
 
                             The client wanted a modern corporate event platform inspired by leading event management companies that organize international conferences and summits. Since there was no existing design system or UI, I was responsible for designing the entire user interface from scratch.
 
