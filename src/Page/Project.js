@@ -1,9 +1,9 @@
-import React from 'react';
+
 import './Home.css';
 import GSWeb from '../Img/GS-web.png'
 import b2bmobile from '../Img/b2bmobile.png'
 import LogoDesign from '../Img/LogoDesign.png'
-import Nav from './Nav';
+
 function Project() {
     return (
         <div className="portfolio-page-content">

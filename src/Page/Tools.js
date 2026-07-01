@@ -1,4 +1,4 @@
-import React from 'react';
+
 import figma from "../Img/figma.png";
 import photoshop from "../Img/photoshop.png";
 import illustrator from "../Img/illustrator.png";
