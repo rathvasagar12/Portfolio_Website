@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Home, Mail, FileText, User, Compass } from 'lucide-react';
 import './Home.css';
-import Footer from './Footer';
+
 
 function NotFound() {
   useEffect(() => {
