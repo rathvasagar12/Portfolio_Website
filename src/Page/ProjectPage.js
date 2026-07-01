@@ -83,15 +83,15 @@ function ProjectPage() {
 						</div>
 						<div className="project-card-body">
 							<span className="project-card-badge">Logo Design</span>
-							<h3 className="project-card-title"><a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+							<h3 className="project-card-title"><a href="" style={{ color: 'inherit', textDecoration: 'none' }}>
 								Logo Design
 							</a></h3>
 							<p className="project-card-description">
 								Designed custom logos by combining creativity, brand strategy, and visual storytelling to build strong and recognizable brand identities.
 							</p>
-							{/* <a href="#details" className="project-card-link">
+							<a href="#details" className="project-card-link">
 								View Details <span className="arrow">→</span>
-							</a> */}
+							</a>
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@ function ProjectPage() {
 					{/* Project Card 4: WakandaBooks */}
 					<div className="project-card">
 						<div className="project-image-container">
-							<a href="/CaseStudy/GS">
+							<a href="">
 								<img
 									src={MentalWellnessApp}
 									alt="Global-Summits Project"
@@ -111,23 +111,23 @@ function ProjectPage() {
 						<div className="project-card-body">
 							<span className="project-card-badge">Web UI Design</span>
 							<h3 className="project-card-title">
-								<a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+								<a href="" style={{ color: 'inherit', textDecoration: 'none' }}>
 									Mental Wellness App
 								</a>
 							</h3>
 							<p className="project-card-description">
 								An accessible wellness platform that empowers users to prioritize their mental health through simple, engaging interactions.
 							</p>
-							{/* <a href="/CaseStudy/GS" className="project-card-link">
+							<a href="" className="project-card-link">
 								View Case Study <span className="arrow">→</span>
-							</a> */}
+							</a>
 						</div>
 					</div>
 
 					{/* Project Card 2: RafRaf */}
 					<div className="project-card">
 						<div className="project-image-container">
-							<a href="/CaseStudy/GS">
+							<a href="">
 								<img
 									src={linqweb}
 									alt="Global-Summits Project"
@@ -138,16 +138,16 @@ function ProjectPage() {
 						<div className="project-card-body">
 							<span className="project-card-badge">Web UI Design</span>
 							<h3 className="project-card-title">
-								<a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+								<a href="" style={{ color: 'inherit', textDecoration: 'none' }}>
 									Linq corporate solutions
 								</a>
 							</h3>
 							<p className="project-card-description">
 								Created a responsive corporate website featuring company information, services, case studies, and contact solutions with a user-centric design approach.
 							</p>
-							{/* <a href="/CaseStudy/GS" className="project-card-link">
+							<a href="" className="project-card-link">
 								View Case Study <span className="arrow">→</span>
-							</a> */}
+							</a>
 						</div>
 					</div>
 
@@ -164,15 +164,15 @@ function ProjectPage() {
 						</div>
 						<div className="project-card-body">
 							<span className="project-card-badge">Logo Design</span>
-							<h3 className="project-card-title"><a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+							<h3 className="project-card-title"><a href="" style={{ color: 'inherit', textDecoration: 'none' }}>
 								Casino blog website
 							</a></h3>
 							<p className="project-card-description">
 								Created a responsive blog website featuring casino reviews, gaming strategies, industry news, and SEO-optimized content layouts for an enhanced reading experience.
 							</p>
-							{/* <a href="#details" className="project-card-link">
+							<a href="#details" className="project-card-link">
 								View Details <span className="arrow">→</span>
-							</a> */}
+							</a>
 						</div>
 					</div>
 				</div>
