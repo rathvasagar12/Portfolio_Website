@@ -88,7 +88,7 @@ function Project() {
                             <p className="project-card-description">
                                 Designed custom logos by combining creativity, brand strategy, and visual storytelling to build strong and recognizable brand identities.
                             </p>
-                            <a href="#details" className="project-card-link">
+                            <a href="/NotFound" className="project-card-link">
                                 View Details <span className="arrow">→</span>
                             </a>
                         </div>
