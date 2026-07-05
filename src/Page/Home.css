@@ -1679,7 +1679,7 @@
   .life-grid-column:nth-child(2),
   .life-grid-column:nth-child(3),
   .life-grid-column:nth-child(4) {
-    flex: 1 1 calc();
+    flex: 1 1 calc(50% - 10px);
   }
 
   .life-grid-column .life-grid-item img {
