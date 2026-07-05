@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img1 from '../Img/img1.jpeg';
 import img4 from '../Img/img4.jpeg';
 import img5 from '../Img/img5.jpeg';
@@ -6,6 +6,7 @@ import img7 from '../Img/img7.jpeg';
 import img72 from '../Img/img72.png';
 import img74 from '../Img/img74.jpeg';
 import img75 from '../Img/img75.jpeg';
+import imgtrip from '../Img/imgtrip.jpg'
 function Life() {
     return (
         <div className="portfolio-page-content">
@@ -24,6 +25,9 @@ function Life() {
                         <div className="life-grid-item">
                             <img src={img5} alt="img" />
                         </div>
+                        {/* <div className="life-grid-item">
+                            <img src={imgtrip} alt="img" />
+                        </div> */}
                     </div>
 
                     {/* Column 2 */}
@@ -55,6 +59,7 @@ function Life() {
                             <img src={img75} alt="img" />
                         </div>
                     </div>
+
                 </div>
             </div>
 

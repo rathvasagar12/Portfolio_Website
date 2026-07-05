@@ -373,7 +373,7 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(171, 171, 171, 0.3);
 
-  right: 335px;
+  right: 160px;
   top: 30%;
   display: flex;
   flex-direction: column;
@@ -1679,7 +1679,7 @@
   .life-grid-column:nth-child(2),
   .life-grid-column:nth-child(3),
   .life-grid-column:nth-child(4) {
-    flex: 1 1 calc(50% - 10px);
+    flex: 1 1 calc();
   }
 
   .life-grid-column .life-grid-item img {
@@ -3067,37 +3067,83 @@
 
 /* Animations */
 @keyframes floatOrb1 {
-  0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(30px, 20px) scale(1.1); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(30px, 20px) scale(1.1);
+  }
 }
 
 @keyframes floatOrb2 {
-  0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(-30px, -20px) scale(1.15); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(-30px, -20px) scale(1.15);
+  }
 }
 
 @keyframes searchingAnimation {
-  0% { stroke-dashoffset: 180; }
-  100% { stroke-dashoffset: -180; }
+  0% {
+    stroke-dashoffset: 180;
+  }
+
+  100% {
+    stroke-dashoffset: -180;
+  }
 }
 
 @keyframes floatingCompassAnim {
-  0% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-6px) rotate(1deg); }
-  100% { transform: translateY(0) rotate(0deg); }
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-6px) rotate(1deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
 }
 
 @keyframes compassHandRotate {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(-10deg); }
-  55% { transform: rotate(15deg); }
-  75% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  55% {
+    transform: rotate(15deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes pulseStarAnim {
-  0%, 100% { opacity: 0.2; transform: scale(0.8); }
-  50% { opacity: 1; transform: scale(1.2); }
+
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
 }
 
 .searching-path {
@@ -3125,11 +3171,11 @@
     gap: 40px;
     padding: 40px;
   }
-  
+
   .notfound-visual {
     order: -1;
   }
-  
+
   .notfound-svg {
     max-width: 220px;
   }
@@ -3140,11 +3186,11 @@
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  
+
   .notfound-title {
     font-size: 34px;
   }
-  
+
   .notfound-wrapper {
     padding: 40px 16px 60px 16px;
   }
@@ -3154,18 +3200,18 @@
   .notfound-card {
     padding: 30px 20px;
   }
-  
+
   .notfound-actions {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .notfound-actions .btn-primary-portfolio,
   .notfound-actions .btn-secondary-portfolio {
     width: 100%;
     justify-content: center;
   }
-  
+
   .directory-card {
     padding: 16px;
     gap: 14px;
