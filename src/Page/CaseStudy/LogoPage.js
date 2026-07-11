@@ -49,9 +49,9 @@ const GRID_ITEMS = [
     className: "cell-color-blue-chair",
     gridRow: "1",
     gridColumn: "3",
-    modalTag: "Furniture Design",
-    title: "Minimal Chair Icon",
-    modalDesc: "Sleek, geometric furniture icon designed for an luxury interior design studio, capturing comfort, form, and minimalism.",
+    modalTag: "Logo",
+    title: "Linq",
+    modalDesc: "Create logo for a linq corporate solutions pvt. ltd. and iq hub.",
     icon: (color) => (
       <Building2 size={48} strokeWidth={2} color={'#004d73'} />
     )
@@ -64,9 +64,9 @@ const GRID_ITEMS = [
     gridColumn: "4",
     title: "Corporate",
     imgUrl: Corporate,
-    modalTag: "Photography",
-    modalDesc: "Macro photography campaign for a baby skincare line, highlighting water purity, softness, and playfulness.",
-    metadata: { client: "PureBaby", role: "Creative Director", year: "2024" }
+    modalTag: "LINQ drives IQHUB's global operations",
+    modalDesc: "Create UI/UX, Motion Graphics and Animations for IQ HUB and LINQ Corporate Solutions pvt ltd",
+    metadata: { client: "IQHUB, LINQ", role: "UI/UX Designer", year: "2026" }
   },
   {
     id: 5,
@@ -76,9 +76,9 @@ const GRID_ITEMS = [
     gridColumn: "5 / span 2",
     title: "Oil and Gas",
     imgUrl: AFS,
-    modalTag: "App UX/UI",
-    modalDesc: "Empathy-driven mobile application and brand strategy for new parents. Capturing the intimate, tender connection between parents and children with soft colors and high-contrast accessibility.",
-    metadata: { client: "Goosebumps App", role: "UI/UX Designer", year: "2025" }
+    modalTag: "Supply Chain Resilience, Logistics & Cost Optimization",
+    modalDesc: "AFS is a supply chain, logistics, and cost optimization company. The redesign focused on conveying stability, efficiency, and deep industry expertise through a modern, trustworthy visual system.",
+    metadata: { client: "AFS", role: "UI/UX Designer", year: "2026" }
   },
   {
     id: 6,
@@ -88,9 +88,9 @@ const GRID_ITEMS = [
     gridColumn: "7",
     title: "Medical Science",
     imgUrl: mRna,
-    modalTag: "Editorial",
-    modalDesc: "Pet health editorial imagery capturing joy and organic energy, part of an online lifestyle magazine feature.",
-    metadata: { client: "Paws & Tail", role: "Photographer", year: "2024" }
+    modalTag: "Healthcare Branding",
+    modalDesc: "Pharmaceutical Event branding, featuring a clean and modern design system that communicates trust, innovation, and global reach.",
+    metadata: { client: "Drug Delivery Summit USA", role: "UI/UX Designer", year: "2024" }
   },
   {
     id: 7,
@@ -98,11 +98,11 @@ const GRID_ITEMS = [
     className: "",
     gridRow: "2",
     gridColumn: "1",
-    title: "Environment",
+    title: "Carbon Capture USA",
     imgUrl: Environment,
-    modalTag: "Advertising",
-    modalDesc: "Rich, textured commercial visual for a specialty coffee roastery. Emphasizes slow mornings, steam, and high-quality beans.",
-    metadata: { client: "Roast & Co.", role: "Visual Stylist", year: "2025" }
+    modalTag: "Carbon Capture USA",
+    modalDesc: "will explore next-generation solutions in carbon capture.",
+    metadata: { client: "Carbon Capture USA", role: "UI/UX Designer", year: "2026" }
   },
   {
     id: 8,
@@ -112,9 +112,9 @@ const GRID_ITEMS = [
     gridColumn: "2 / span 2",
     title: "EV Charging",
     imgUrl: EV,
-    modalTag: "Corporate Identity",
-    modalDesc: "Comprehensive rebrand and visual system for a construction infrastructure firm. Highlighting structural integrity, heavy machinery safety, and the real heroes building our cities.",
-    metadata: { client: "BuildForce", role: "Art Director", year: "2026" }
+    modalTag: "EV CHARGING",
+    modalDesc: "Explore the latest trends, technologies, and innovations in electric vehicle charging infrastructure. A premier event for industry leaders, innovators, and stakeholders.",
+    metadata: { client: "IQ Hub", role: "UI/UX Designer and Developer", year: "2026" }
   },
   {
     id: 9,
@@ -345,7 +345,7 @@ function LogoPage() {
             </button>
             <div className="modal-tag">{selectedItem.modalTag}</div>
 
-            
+
             <div
               className={`modal-icon-badge ${selectedItem.className || ""}`}
               style={{
