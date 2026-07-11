@@ -74,21 +74,23 @@ function Project() {
                     {/* Project Card 3: Rummy Verse */}
                     <div className="project-card">
                         <div className="project-image-container">
-                            <img
-                                src={LogoDesign}
-                                alt="LogoDesign"
-                                className="project-card-image"
-                            />
+                            <a href="/CaseStudy/Logo">
+                                <img
+                                    src={LogoDesign}
+                                    alt="LogoDesign"
+                                    className="project-card-image"
+                                />
+                            </a>
                         </div>
                         <div className="project-card-body">
                             <span className="project-card-badge">Logo Design</span>
-                            <h3 className="project-card-title"><a href="/CaseStudy/GS" style={{ color: 'inherit', textDecoration: 'none' }}>
+                            <h3 className="project-card-title"><a href="/CaseStudy/Logo" style={{ color: 'inherit', textDecoration: 'none' }}>
                                 Logo Design
                             </a></h3>
                             <p className="project-card-description">
                                 Designed custom logos by combining creativity, brand strategy, and visual storytelling to build strong and recognizable brand identities.
                             </p>
-                            <a href="/NotFound" className="project-card-link">
+                            <a href="/CaseStudy/Logo" className="project-card-link">
                                 View Details <span className="arrow">→</span>
                             </a>
                         </div>

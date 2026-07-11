@@ -58,18 +58,13 @@ function BM() {
                         <h2>The Challenge</h2>
                         <p>
                             The client wanted a modern B2B marketplace mobile app that would simplify the process of connecting buyers and suppliers on a single platform. The goal was to create an intuitive experience where businesses could easily discover products, request quotations, place bulk orders, and communicate with suppliers.
-
-
-
                         </p>
                         <p>
-
+                            Starting from scratch, I designed the complete user interface with a focus on usability, scalability, and a professional visual identity. The main challenge was organizing a large product catalog, presenting detailed product information without overwhelming users, and creating a smooth purchasing journey from product discovery to order placement.
                         </p>
                         <p>
-                            In addition to designing the cStarting from scratch, I designed the complete user interface with a focus on usability, scalability, and a professional visual identity. The main challenge was organizing a large product catalog, presenting detailed product information without overwhelming users, and creating a smooth purchasing journey from product discovery to order placement.omplete UI, I developed all website pages with a responsive layout, ensuring a consistent experience across desktop, tablet, and mobile devices. The goal was to build a scalable, visually engaging platform that strengthened the company's online presence and made it easy for visitors to explore events, learn about the organization, and connect with the team.
-
+                            In addition to the UI design, I ensured the interface was optimized for mobile devices with consistent layouts, intuitive navigation, and a seamless user experience across every screen.
                         </p>
-                        <p>In addition to the UI design, I ensured the interface was optimized for mobile devices with consistent layouts, intuitive navigation, and a seamless user experience across every screen.</p>
                     </div>
 
                     <div className="casestudy-section">

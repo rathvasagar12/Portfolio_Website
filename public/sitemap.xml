@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main landing page -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Me Page -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/About</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Portfolio Project Grid -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/Portfolio</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tools & Tech Stack -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/Tools</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Professional Journey / Timeline -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/Journey</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Design Process & Methods -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/DesignProcess</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Personal Life & Interests -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/Life</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/Contact</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Case Studies -->
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/CaseStudy/GS</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/CaseStudy/BM</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rathvasagar12.github.io/Portfolio_Website/CaseStudy/Logo</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

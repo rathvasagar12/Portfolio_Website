@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MapPinned } from 'lucide-react';
 import behance from '../Img/behance.png'
 import LinkedIn from '../Img/linkedin.png'

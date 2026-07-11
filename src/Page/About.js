@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Home.css';
 import Footer from './Footer';
 import me from '../Img/me.PNG';

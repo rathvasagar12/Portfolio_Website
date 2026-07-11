@@ -12,6 +12,7 @@ import Nav from './Page/Nav';
 import Contact from './Page/Contact';
 import GS from './Page/CaseStudy/GS';
 import BM from './Page/CaseStudy/BM';
+import LogoPage from './Page/CaseStudy/LogoPage';
 import NotFound from './Page/NotFound';
 
 function AppContent() {
@@ -51,6 +52,7 @@ function AppContent() {
           <Route path="Contact" element={<Contact />} />
           <Route path="CaseStudy/GS" element={<GS />} />
           <Route path="CaseStudy/BM" element={<BM />} />
+          <Route path="CaseStudy/Logo" element={<LogoPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
