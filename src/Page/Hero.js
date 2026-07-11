@@ -1,9 +1,9 @@
 
 import { MapPinned } from 'lucide-react';
-import behance from '../Img/behance.png'
-import LinkedIn from '../Img/linkedin.png'
-import Instagram from '../Img/instagram.png'
-import Gmail from '../Img/gmail.png'
+// import behance from '../Img/behance.png'
+// import LinkedIn from '../Img/linkedin.png'
+// import Instagram from '../Img/instagram.png'
+// import Gmail from '../Img/gmail.png'
 import { ArrowRight } from 'lucide-react';
 import { ArrowUpRight } from 'lucide-react';
 
@@ -41,6 +41,9 @@ function Hero() {
                                 View My Work <span className="arrow"><ArrowRight color="#737373" strokeWidth={1} /></span>
                             </a>
                         </div>
+                        
+                        {/* Commented out social section cleanly to avoid breaking JSX tags */}
+                        {/* 
                         <div className="social-section">
                             <span className="social-label">Follow Me</span>
                             <div className="social-icons-wrapper">
@@ -58,17 +61,18 @@ function Hero() {
                                 </a>
                             </div>
                         </div>
+                        */}
                     </div>
- 
+
                     {/* Right Column Visuals */}
                     <div className="hero-visuals">
                         <div className="visual-bg-circle"></div>
- 
+
                         {/* Small decorative arrow pointing to illustration */}
                         <svg className="arrow-overlay" viewBox="0 0 50 50" fill="none" aria-hidden="true">
                             <path d="M40,10 C30,12 18,22 15,35 M15,35 L12,28 M15,35 L24,34" stroke="#ff4a17" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
- 
+
                         <div className="main-illustration-wrapper">
                             <img
                                 src="/img/designer_illustration.png"
@@ -76,13 +80,13 @@ function Hero() {
                                 className="main-illustration"
                             />
                         </div>
- 
+
                         {/* Floating badges */}
                         <div className="floating-badge experience-badge">
                             <span className="exp-num">4+</span>
                             <span className="exp-text">Years of<br />Experience</span>
                         </div>
- 
+
                         <div className="floating-badge location-badge">
                             <div className="location-icon-wrapper">
                                 <MapPinned color="#ffffffff" strokeWidth={1} />
@@ -94,7 +98,6 @@ function Hero() {
                         </div>
                     </div>
                 </div>
- 
             </section>
         </div>
     );
