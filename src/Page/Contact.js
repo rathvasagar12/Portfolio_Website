@@ -4,9 +4,9 @@ import Footer from './Footer';
 import behance from '../Img/behance.png'
 import LinkedIn from '../Img/linkedin.png'
 import Instagram from '../Img/instagram.png'
-import Gmail from '../Img/gmail.png'
+// import Gmail from '../Img/gmail.png'
 import { Mail } from 'lucide-react';
-import { Phone } from 'lucide-react';
+// import { Phone } from 'lucide-react';
 
 function Contact() {
     return (
@@ -50,7 +50,7 @@ function Contact() {
                                 </div>
                             </div>
 
-                            <div className="contact-card">
+                            {/* <div className="contact-card">
                                 <div className="contact-card-icon-wrapper phone-icon-bg">
                                     <Phone color="#ff4a17" strokeWidth={1} />
                                 </div>
@@ -60,7 +60,7 @@ function Contact() {
                                         +91 9714414012
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* <div className="contact-socials-wrapper">
@@ -81,9 +81,7 @@ function Contact() {
                                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} alt="LinkedIn" /></a>
                                 <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} alt="Instagram" /></a>
 
-                                <a href="mailto:rathwasagar007@gmail.com" className="social-icon-pill">
-                                    <img src={Gmail} alt="Gmail" />
-                                </a>
+
                             </div>
                         </div>
                     </div>

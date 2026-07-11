@@ -2829,6 +2829,16 @@
 .hobby-icon-wrapper {
   font-size: 38px;
   margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+}
+
+.hobby-icon-wrapper img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
 }
 
 .hobby-item-card h3 {
