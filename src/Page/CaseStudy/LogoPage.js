@@ -336,7 +336,7 @@ function LogoPage() {
       </div>
 
       {/* Interactive Detail Modal */}
-      {/* <div className={`logo-detail-modal ${selectedItem ? "active" : ""}`}>
+      <div className={`logo-detail-modal ${selectedItem ? "active" : ""}`}>
         <div className="modal-overlay" onClick={closeModal}></div>
         {selectedItem && (
           <div className="modal-content-card">
@@ -396,7 +396,7 @@ function LogoPage() {
             )}
           </div>
         )}
-      </div> */}
+      </div>
     </div>
   );
 }
