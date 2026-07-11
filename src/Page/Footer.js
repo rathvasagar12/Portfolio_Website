@@ -1,8 +1,8 @@
 
-
-import behance from '../Img/behance.png'
-import LinkedIn from '../Img/linkedin.png'
-import Instagram from '../Img/instagram.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBehance } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 function Footer() {
@@ -12,10 +12,7 @@ function Footer() {
 	return (
 		<div className="portfolio-footer-section">
 			<div className="footer-container-card ">
-				{/* Mascot Area */}
-				{/* <div className="footer-left">
-					<img src={sagar} alt="Mascot Avatar" className="footer-mascot" />
-				</div> */}
+
 
 				{/* Info & CTA Area */}
 				<div className="footer-right">
@@ -26,9 +23,9 @@ function Footer() {
 					<div className="footer-buttons-group">
 						<button className="btn-footer-outline" onClick={openPDF}>View Resume</button>
 						<div className="social-icons-wrapper">
-							<a href="https://www.behance.net/sagarrathawa1" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={behance} alt="Behance" /></a>
-							<a href="https://www.linkedin.com/in/sagar-rathva/" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={LinkedIn} alt="LinkedIn" /></a>
-							<a href="https://www.instagram.com/moozark" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><img src={Instagram} alt="Instagram" /></a>
+							<a href="https://www.behance.net/sagarrathawa1" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><FontAwesomeIcon icon={faBehance} /></a>
+							<a href="https://www.linkedin.com/in/sagar-rathva/" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><FontAwesomeIcon icon={faLinkedin} /></a>
+							<a href="https://www.instagram.com/moozark" target="_blank" rel="noopener noreferrer" className="social-icon-pill"><FontAwesomeIcon icon={faInstagram} /></a>
 
 
 						</div>

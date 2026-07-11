@@ -58,9 +58,9 @@ function Journey() {
                             <p className="journey-card-description">
                                 Designed 20+ mobile app wireframes and mockups in Figma using user-centered design principles. Built responsive web interfaces with HTML5, CSS3, and Bootstrap 5, ensuring consistency and cross-browser compatibility. Collaborated closely with developers and stakeholders to deliver accurate design implementation, while also creating logos, branding materials, and digital assets for clients across various industries.
                             </p>
-                            <a href="/Portfolio" className="btn-see-testimonials">
+                            {/* <a href="/Portfolio" className="btn-see-testimonials">
                                 View Projects <span className="arrow">→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className="journey-timeline-item">
@@ -81,9 +81,9 @@ function Journey() {
                                 Led a team of 10+ designers, managing projects from concept to delivery while ensuring quality and timely execution. Designed responsive web interfaces using React.js, HTML5, CSS3, and Bootstrap 5, and leveraged AI tools such as Stitch AI, Relume AI, and Figma Make to accelerate design workflows. Collaborated with cross-functional teams to create intuitive user experiences and developed branding assets, logos, marketing materials, and print designs aligned with client objectives.
 
                             </p>
-                            <a href="/Portfolio" className="btn-see-testimonials">
+                            {/* <a href="/Portfolio" className="btn-see-testimonials">
                                 View Projects <span className="arrow">→</span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
