@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./LogoPage.css";
 import AFS from '../../Img/AFS.png';
 import EV from '../../Img/EV.jpg';
@@ -284,15 +284,6 @@ const GRID_ITEMS = [
 ];
 
 function LogoPage() {
-  const [selectedItem, setSelectedItem] = useState(null);
-
-  const handleCellClick = (item) => {
-    setSelectedItem(item);
-  };
-
-  const closeModal = () => {
-    setSelectedItem(null);
-  };
 
   return (
     <div>
@@ -309,7 +300,6 @@ function LogoPage() {
             <div
               key={item.id}
               className={`logo-grid-cell cell-${item.id} ${item.className || ""}`}
-              onClick={() => handleCellClick(item)}
             >
               {item.type === "image" ? (
                 <>
