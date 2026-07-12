@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./LogoPage.css";
-import AFS from '../../Img/AFS.jpg';
+import AFS from '../../Img/AFS.png';
 import EV from '../../Img/EV.jpg';
 import Eventimg from '../../Img/Eventimg.jpg';
 import Environment from '../../Img/Environment.jpg';
@@ -18,6 +18,8 @@ import { Box } from "lucide-react";
 import mRna from "../../Img/mRna.jpeg";
 import WindPower from "../../Img/WindPower.jpg";
 import Appslogo from "../../Img/Applogo.png";
+import Supply from "../../Img/Supply.jpg";
+import Footer from "../../Page/Footer";
 
 const GRID_ITEMS = [
   {
@@ -98,7 +100,7 @@ const GRID_ITEMS = [
     className: "",
     gridRow: "2",
     gridColumn: "1",
-    title: "Carbon Capture USA",
+    title: "Green Energy",
     imgUrl: Environment,
     modalTag: "Carbon Capture USA",
     modalDesc: "will explore next-generation solutions in carbon capture.",
@@ -135,8 +137,8 @@ const GRID_ITEMS = [
     className: "",
     gridRow: "2",
     gridColumn: "7",
-    title: "Visionary",
-    imgUrl: "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=800&auto=format&fit=crop",
+    title: "Supply and Logistics",
+    imgUrl: Supply,
     modalTag: "Art Direction",
     modalDesc: "Fine art forest photography capturing deep misty layers. Developed for the cover of an environmental non-profit's annual report.",
     metadata: { client: "EcoEarth", role: "Art Director", year: "2025" }
@@ -293,50 +295,47 @@ function LogoPage() {
   };
 
   return (
-    <div className="logo-page-wrapper">
-      <div className="logo-page-header">
-        <h1>Build a Brand That Stands Out.</h1>
-        <p>
-          A great logo is more than a symbol it's the foundation of your brand identity.
-        </p>
-      </div>
+    <div>
+      <div className="logo-page-wrapper">
+        <div className="logo-page-header">
+          <h1>Build a Brand That Stands Out.</h1>
+          <p>
+            Industry for Which the Logo Was Designed
+          </p>
+        </div>
 
-      <div className="logo-grid-container">
-        {GRID_ITEMS.map((item) => (
-          <div
-            key={item.id}
-            className={`logo-grid-cell ${item.className || ""}`}
-            style={{
-              gridRow: item.gridRow,
-              gridColumn: item.gridColumn
-            }}
-            onClick={() => handleCellClick(item)}
-          >
-            {item.type === "image" ? (
-              <>
-                <img
-                  className="cell-img-bg"
-                  src={item.imgUrl}
-                  alt={item.title}
-                  loading="lazy"
-                />
-                <div className="cell-text-overlay">
-                  <h3>{item.title}</h3>
+        <div className="logo-grid-container">
+          {GRID_ITEMS.map((item) => (
+            <div
+              key={item.id}
+              className={`logo-grid-cell cell-${item.id} ${item.className || ""}`}
+              onClick={() => handleCellClick(item)}
+            >
+              {item.type === "image" ? (
+                <>
+                  <img
+                    className="cell-img-bg"
+                    src={item.imgUrl}
+                    alt={item.title}
+                    loading="lazy"
+                  />
+                  <div className="cell-text-overlay">
+                    <h3>{item.title}</h3>
+                  </div>
+                </>
+              ) : (
+                <div className="cell-icon-wrapper">
+                  {item.customContent
+                    ? item.customContent()
+                    : item.icon && item.icon("inherit")}
                 </div>
-              </>
-            ) : (
-              <div className="cell-icon-wrapper">
-                {item.customContent
-                  ? item.customContent()
-                  : item.icon && item.icon("inherit")}
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+              )}
+            </div>
+          ))}
+        </div>
 
-      {/* Interactive Detail Modal */}
-      <div className={`logo-detail-modal ${selectedItem ? "active" : ""}`}>
+        {/* Interactive Detail Modal */}
+        {/* <div className={`logo-detail-modal ${selectedItem ? "active" : ""}`}>
         <div className="modal-overlay" onClick={closeModal}></div>
         {selectedItem && (
           <div className="modal-content-card">
@@ -373,16 +372,7 @@ function LogoPage() {
             <p>{selectedItem.modalDesc}</p>
 
             {selectedItem.metadata && (
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-around",
-                  borderTop: "1px solid rgba(255, 255, 255, 0.1)",
-                  paddingTop: "20px",
-                  fontSize: "0.9rem",
-                  color: "rgba(255, 255, 255, 0.5)"
-                }}
-              >
+              <div className="modal-metadata-wrapper">
                 <div>
                   <strong>Client:</strong> {selectedItem.metadata.client}
                 </div>
@@ -396,7 +386,10 @@ function LogoPage() {
             )}
           </div>
         )}
+      </div> */}
+
       </div>
+      <Footer />
     </div>
   );
 }
